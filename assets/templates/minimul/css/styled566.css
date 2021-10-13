@@ -1,0 +1,135 @@
+
+
+input:focus {
+border: 1px solid #591adf;
+}
+
+input[type="submit"] {
+cursor: pointer;
+background-color: #591adf;
+}
+
+.bg-3, .deposit-tab .tab-menu .custom-button.active, .contact-form .form-group input[type="submit"], .ask-form .form-group input[type="submit"], .account-form .form-group input[type="submit"], .comment-form .form-group input[type="submit"] {
+background-image: -moz-linear-gradient(41deg, #591adf 30%, #591adf 67%, #591adf 88%);
+background-image: -webkit-linear-gradient(41deg, #591adf 30%, #591adf 67%, #591adf 88%);
+}
+
+.newslater-form .form-group button {
+background: #591adf;
+}
+
+.newslater-form .form-group input {
+background: #591adf1a;
+color: #777777;
+height: 70px;
+padding-left: 25px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+}
+
+
+.newslater-form .form-group input:focus {
+border: 1px solid #591adf;
+}
+
+.account-form .form-group a {
+color: #591adf;
+}
+.footer-widget .social-icons li a i {
+color: #591adf;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+color: #591adf;
+}
+
+
+.faq-wrapper.style-two .faq-item.open .faq-title::after {
+background: #591adf;
+}
+
+
+.scrollToTop {
+background:  #591adf;
+}
+
+.scrollToTop:hover {
+background: #591adf;
+}
+
+.bg-1, bg-3,
+.custom-button .bg-1,
+.custom-button .bg-1 {
+background-image: -moz-linear-gradient(41deg, #591adf 30%, #591adf 75%, #591adf 100%);
+background-image: -webkit-linear-gradient(41deg, #591adf 30%, #591adf 75%, #591adf 100%);
+}
+
+.sponsors .owl-prev, .sponsors .owl-next {
+color: #591adf ;
+}
+
+.owl-nav .owl-next,
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+color: #591adf ;
+}
+
+header.active {
+	background:#7134eb;
+}
+
+.padding{
+padding: 80px 0px;
+}
+
+
+.feature-item .subtitle::before {
+background:#591adf ;
+}
+
+.item-thumb i {
+font-size: 30px;
+color:#591adf ;
+}
+
+
+.section-feature-item.active .feature-content .title, .section-feature-item:hover .feature-content .title {
+color: #591adf;
+}
+
+.section-feature-item .feature-thumb{
+    color: #591adf;
+}
+
+.logo-max{
+    max-width:220px;
+}
+.post-item.post-details .author-area .social li a {
+    background-color: #5d3deb;
+}
+
+.widget .title{
+
+}
+.widget .title {
+background: #5d3deb;
+}
+
+.user-area .tab-menu li.active {
+background:  #5d3deb;
+border-color:  #5d3deb;
+}
+
+.user-panel-header {
+background: #5d3deb;
+}
+
+
+.darkmode .investment-item {
+    background-color: #5d3deb;
+}
+
+.darkmode .post-item .post-content {
+    background: #000070;
+}

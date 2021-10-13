@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from bitinvest.uk/assets/admin/css/chat.css by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Mar 2021 13:17:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bitinvest</title>
+  <link rel="shortcut icon" type="image/png" href="../../images/logoIcon/favicon.png"/>
+    
+  <link rel="stylesheet" href="dashboard.min.css">
+  <link rel="stylesheet" href="custom.css">
+
+ 
+  </head>
+<body>
+  <section class="error-section">
+    <div class="col-xl-5 col-lg-6 col-md-8 col-sm-8 content text-center">
+        <img src="../../images/error-404.png" alt="error-image">
+        <h2 class="font-large title">404</h2>
+        <span class="sub-title">Page not found</span>
+        <a href="../../../admin.html" class="btn btn-primary btn-lg mt-3">Got back to home</a>
+    </div>
+</section>
+
+  <script src="../js/dashboard.min.js"></script>
+  <script src="../js/main.js"></script>
+  
+  <!-- Load toast -->
+  <!-- Toastr -->
+    <link rel="stylesheet" href="toastr.min.css">
+    <script src="../js/toastr.min.js"></script>
+    
+
+        
+        <script>
+
+        function notify(status,message) {
+            toastr[status](message)
+        }
+    </script>
+
+  <script src="../js/nicEdit.js"></script>
+    
+    <script type="text/javascript">
+    bkLib.onDomLoaded(function() {
+        $( ".nicEdit" ).each(function( index ) {
+            $(this).attr("id","nicEditor"+index);
+            new nicEditor({fullPanel : true}).panelInstance('nicEditor'+index,{hasPanel : true});
+        });
+    });
+  </script>
+  
+  <script>$('[data-toggle=tooltip]').tooltip();</script>
+  </body>
+
+<!-- Mirrored from bitinvest.uk/assets/admin/css/chat.css by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Mar 2021 13:17:16 GMT -->
+</html>
